@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+@media screen {
+	div#preloader {
+		position: absolute;
+		left: -9999px;
+		top:  -9999px;
+		}
+	div#preloader img {
+		display: block;
+		}
+	}
+@media print {
+	div#preloader, 
+	div#preloader img {
+		visibility: hidden;
+		display: none;
+		}
+	}
+
+
+
+body {
+  background-image:url("http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-71578.jpg");
+  
+}
+.jumbotron {
+  background-color:transparent;
+  text-align:center;
+}
+#topic {
+  text-align:center;
+  color:green;
+  font-size:50px;
+  font-family:"Pacifico";
+}
+.quote {
+  margin-top:-90px;
+  width:auto;
+}
+.btn {
+  width: 110px;
+  height: 35px;
+  background-color:green;
+  border-color:black;
+}
+.well{
+  display: inline-block;
+}
+.quotebox {
+  margin-top:-70px;
+}
